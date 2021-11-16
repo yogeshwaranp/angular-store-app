@@ -4,4 +4,5 @@
   <h3>{{ productDetail.name }}</h3>
   <h4>Price: {{ productDetail.price | currency }}</h4>
   <p>Desc: {{ productDetail.description }}</p>
+  <button (click)="addToCart(productDetail)">Buy</button>
 </div>
